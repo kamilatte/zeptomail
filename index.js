@@ -12,7 +12,6 @@ app.use(bodyParser.json());
 
 const url = "api.zeptomail.com/";
 const token = process.env.TOKEN;
-console.log(process.env.TEST || 'test');
 
 let client = new SendMailClient({ url, token });
 
