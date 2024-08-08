@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Email Form</h1>
+    <form action="/" method="post">
+        <label for="senderName">Sender Name:</label><br>
+        <input type="text" id="senderName" name="senderName" required><br>
+        <label for="senderUsername">Sender Email:</label><br>
+        <input type="text" id="senderUsername" name="senderUsername" required>
+        <span>@</span>
+        <select id="senderDomain" name="senderDomain" required>
+            <option value="kinimae.com">kinimae.com</option>
+        </select><br><br>
+        <label for="receiverEmail">Receiver Email:</label><br>
+        <input type="text" id="receiverEmail" name="receiverEmail" required><br>
+        <label for="subject">Subject:</label><br>
+        <input type="text" id="subject" name="subject" required><br>
+        <label for="emailBody">Email Body:</label><br>
+        <textarea id="emailBody" name="emailBody" required></textarea><br><br>
+        <button type="submit">Send Email</button>
+    </form>
+</div>
+
+</body>
+</html>
