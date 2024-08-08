@@ -34,7 +34,7 @@ app.post("/", (req, res) => {
         return client.sendMail({
             from: {
                 address: senderEmail,
-                name: senderName, // Use the sender's name
+                name: senderName,
             },
             to: [
                 {
