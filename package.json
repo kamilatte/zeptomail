@@ -23,6 +23,6 @@
     "dotenv": "^16.4.5",
     "express": "^4.21.2",
     "nodemon": "^3.1.0",
-    "zeptomail": "^6.0.0"
+    "zeptomail": "^6.1.0"
   }
 }
